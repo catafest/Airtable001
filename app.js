@@ -1,5 +1,5 @@
 var Airtable = require('airtable');
-var base = new Airtable({apiKey: 'keyFnJVLRulHJdaGT'}).base('app6X50jM1Bwgl2Bb');
+var base = new Airtable({apiKey: 'your-key'}).base('app6X50jM1Bwgl2Bb');
 
 const table = base('Tasks');
 
