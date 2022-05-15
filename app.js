@@ -1,6 +1,6 @@
 var Airtable = require('airtable');
 // these can be see on the https://airtable.com/account and the 
-var base = new Airtable({apiKey: 'keyFnJVLRulHJdaGT'}).base('app7DTllmZGd7QoA1');
+var base = new Airtable({apiKey: 'your-key'}).base('your-app-id');
 
 const table = base('Tasks')
 
@@ -46,4 +46,4 @@ const getRecordsById = async (id) => {
     console.log("Get one record : ", record)
 }
 
-getRecordsById('reclv2DImx3CFFBWr');
+getRecordsById('your-id-record');
