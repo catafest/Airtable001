@@ -7,5 +7,3 @@ const getRecords = async () => {
     const records = await table.select({maxRecords:3,view:'All tasks'}).firstPage();
     console.log(records);
 }
-
-getRecords()
